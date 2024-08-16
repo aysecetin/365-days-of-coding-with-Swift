@@ -1,19 +1,20 @@
 # Standard Programming Structures
-Are structures that are similar in all languages.  
+🤓Are structures that are similar in all languages.  
 
-Comparison operators 
-Controls
-  if and switch constructs 
-Loops
-  For
-  While
-Some ready-made commands 
+Comparison operators   
+Controls  
+➤if 
+➤switch 
+Loops  
+➤For  
+➤While  
+Some ready-made commands   
  
  **Controls**
 
 this is the structure where we will talk about where our codes will be shaped towards.
 
-**Loops 🔄**  
+**Loops 🔄**    
 a structure that allows us to repeat operations.
 
 
