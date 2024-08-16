@@ -1,5 +1,5 @@
 # Standard Programming Structures
-## 🤓What Is Standard Programming Structures
+## 🤓What Are Standard Programming Structures
 
 Are structures that are similar in all languages.  
 
