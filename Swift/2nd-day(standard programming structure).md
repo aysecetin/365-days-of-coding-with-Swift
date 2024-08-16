@@ -3,9 +3,9 @@
 
 Comparison operators   
 Controls  
-➤if 
-➤switch 
-Loops  
+➤if   
+➤switch   
+Loops    
 ➤For  
 ➤While  
 Some ready-made commands   
@@ -164,7 +164,7 @@ if preference == 1{
 }
 ```
 
-### Switch Structure
+### Switch Structure   
 
 ```swift
 let day = 5
