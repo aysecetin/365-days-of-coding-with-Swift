@@ -1,5 +1,7 @@
 # Standard Programming Structures
-🤓Are structures that are similar in all languages.  
+## 🤓What Is Standard Programming Structures
+
+Are structures that are similar in all languages.  
 
 Comparison operators   
 Controls  
