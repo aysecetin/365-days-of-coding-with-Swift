@@ -18,7 +18,7 @@ There is a value inside or not. We cannot know this without opening the box. The
 For this, a ! (exclamation) sign is placed at the end of the variable. By doing this, we tell the compiler that we are sure that there is a value in the optional variable. Now the value of the variable is Optional(2), but not  only 2. But of course this method has its drawbacks. If the value of the variable is nil, the application will crash.  
 
 ```swift
-print(value1 !+ value2!) //as a result, the number 3 is printed on the screen.
+print(value1! + value2!) //as a result, the number 3 is printed on the screen.
 ```
 
 To open the box safely, we will use the if condition.   
