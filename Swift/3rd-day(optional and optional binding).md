@@ -39,7 +39,7 @@ if let newValue == value2 {
 }
 ```
 
-**Optional Example**
+**Optional Example**  
 🧐🧐🧐
 ```swift
 
@@ -56,7 +56,7 @@ if str != nil{ ///str does not enter if when it is nil because it is called(!=) 
 
 ```
 
-**Optional Binding Example**
+**Optional Binding Example**  
 🧐🧐🧐
 ```swift
 var str:String?
