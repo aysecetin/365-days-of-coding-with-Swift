@@ -22,7 +22,7 @@ var array4 = [Int](repeating: 0, count: 3) // construct that gives default value
 
 
 **Access to Array Data**  
-We access with the index number.
+- We access with the index number.
 
 ```swift
 var fruits:[String] = ["strawberry", "banana", "apple", "kiwi", "cherry"]
