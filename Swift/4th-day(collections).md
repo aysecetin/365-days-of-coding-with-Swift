@@ -59,7 +59,7 @@ fruits.isEmpty
 fruits.count // number of elements not index
 fruits.first
 fruits.last
-fruits.contains(‘lettuce’) // we checked if it contains
+fruits.contains("lettuce") // we checked if it contains
 
 fruits.max()
 fruits.min()
@@ -94,7 +94,7 @@ print(result3)
 
 ## Examples
 
-**1 Odd - Even Numbers**
+**1 Odd - Even(👩🏻‍❤️‍💋‍👨🏻) Numbers**
 
 ```swift
 var numbers = [1, 4, 67, 42, 89, 90, 54, 12, 65, 73, 64, 87]
