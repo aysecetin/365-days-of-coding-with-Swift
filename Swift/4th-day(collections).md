@@ -1,4 +1,4 @@
-# COLLECTIONS 
+# COLLECTIONS 📚
 
 🤓I will explain collections in two parts   
 - array   
