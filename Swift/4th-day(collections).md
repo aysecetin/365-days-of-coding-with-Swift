@@ -1,10 +1,11 @@
 # COLLECTIONS 
 
-I will explain collections in two parts   
--array   
--set and dictionary    
+🤓I will explain collections in two parts   
+- array   
+- set and dictionary    
 
-## ARRAY[ ]
+## ARRAY[ ]📺
+
 - Keeps data of the same type together.  
 - Index numbers start from 0.  
 - Array type must be specified when defining an array.  
