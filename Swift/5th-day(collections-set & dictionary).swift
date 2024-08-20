@@ -112,6 +112,40 @@ print(prices)
 print(products)
 
 
+// FILTERING THE DICTIONARY
+
+var school:[Int:String] = [156:"Ahmet", 53:"Mehmet", 871:"Zeynep", 32:"İclal", 48:"Ahmet"]
+
+var result1 = school.filter({$0.key > 70})
+print(sonuc1)
+
+var result2 = school.filter({$0.value == "Ahmet"})
+print(sonuc2)
+
+var result3 = school.filter({$0.value == "Ahmet" && $0.key < 70})
+print(sonuc3)
+
+
+//EXAMPLE REPORT CARD APPLICATION
+
+var gradesOfCourses = [String:Int]()
+
+gradesOfCourses["History"] = 20
+gradesOfCourses["Physics"] = 80
+gradesOfCourses["Maths"] = 100
+gradesOfCourses["Chemistry"] = 50
+gradesOfCourses["Biology"] = 40
+
+var total = 0
+
+for (course, grade) in gradesOfCourses{
+    print("\(course):\(grade)")
+    total = total + grade
+}
+
+print("***************************")
+print("average:\(total/gradesOfCourses.count)")
+
 
 
 
