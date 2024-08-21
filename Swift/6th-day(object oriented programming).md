@@ -8,7 +8,7 @@ what is this object oriented programming?
 - Objects are abstracted and converted into computer code for multiple use. 
 - The resulting abstract outline is called a class.
 
-## what is the object?
+## what is the object?🤔
 - objects are the embodiment of classes.  
 - objects have state and behaviour.  
 
@@ -17,7 +17,7 @@ what is this object oriented programming?
 🛻pedals for accelerating and decelerating: behaviour  
 
 - classes contain details about the properties and behaviour of objects.
-- e.g. what happens when the brake is applied  
+- e.g. what happens when the brake is applied 🛻🛻 
 
 ## state and behaviour of objects 
 **state**
