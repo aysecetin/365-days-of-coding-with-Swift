@@ -115,7 +115,7 @@ kamilKoc.getInfo()
 ```
 **same logic as with the car analogy.**
 
-### LAZY FEATURE
+### LAZY FEATURE🦥🦥
 
 - Is put in the second plan as storage priority.
 - It is used before variables that are var, that is, variable.
@@ -130,7 +130,7 @@ var object = Example()
 print(object.no)
 ```
 
-### CALCULATION FEATURE
+### CALCULATION FEATURE🧮
 
 - Are variables used for calculation, not storage.  
 - Performs operations related to variables inside the class.  
