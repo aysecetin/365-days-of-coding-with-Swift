@@ -119,11 +119,12 @@ kamilKoc.getInfo()
 
 - Both structures have similar properties.
 - class is a reference type.
-- structure is a variable type.
+- structure is a value type.
 - structure has no inheritance property.
 
-**reference type:** ali and mehmet use a common file. if ali changes the data in this file, mehmet is affected by this change.
+**reference type:** Ali and Mehmet use a common file. if Ali changes the data in this file, Mehmet is affected by this change.
+better for memory management.
 
-**variable type:** if ali or mehmet change the information in the file, neither of them is affected by this change. everyone keeps their own file 
+**value type:** if Ali or Mehmet change the information in the file, neither of them is affected by this change. everyone keeps their own file 
 
 
