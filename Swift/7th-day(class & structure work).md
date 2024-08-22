@@ -115,18 +115,6 @@ kamilKoc.getInfo()
 ```
 **same logic as with the car analogy.**
 
-## Difference Between Class and Structure
-
-- Both structures have similar properties.
-- class is a reference type.
-- structure is a value type.
-- structure has no inheritance property.
-
-**reference type:** Ali and Mehmet use a common file. if Ali changes the data in this file, Mehmet is affected by this change.
-better for storage management.
-
-**value type:** if Ali or Mehmet change the information in the file, neither of them is affected by this change. everyone keeps their own file 
-
 ### LAZY FEATURE
 
 - Is put in the second plan as storage priority.
@@ -185,3 +173,15 @@ m.weeklySalaryCalculation = 600
 print(m.salary)
 
 ```
+
+## Difference Between Class and Structure
+
+- Both structures have similar properties.
+- class is a reference type.
+- structure is a value type.
+- structure has no inheritance property.
+
+**reference type:** Ali and Mehmet use a common file. if Ali changes the data in this file, Mehmet is affected by this change.
+better for storage management.
+
+**value type:** if Ali or Mehmet change the information in the file, neither of them is affected by this change. everyone keeps their own file 
