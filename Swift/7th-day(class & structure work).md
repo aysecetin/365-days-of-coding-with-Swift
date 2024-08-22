@@ -123,8 +123,65 @@ kamilKoc.getInfo()
 - structure has no inheritance property.
 
 **reference type:** Ali and Mehmet use a common file. if Ali changes the data in this file, Mehmet is affected by this change.
-better for memory management.
+better for storage management.
 
 **value type:** if Ali or Mehmet change the information in the file, neither of them is affected by this change. everyone keeps their own file 
 
+### LAZY FEATURE
 
+- Is put in the second plan as storage priority.
+- It is used before variables that are var, that is, variable.
+- The variable to be lazy must have an initial value, it cannot be an empty variable.
+
+```swift
+class Example {
+    lazy var no = 39
+}
+
+var object = Example()
+print(object.no)
+```
+
+### CALCULATION FEATURE
+
+- Are variables used for calculation, not storage.  
+- Performs operations related to variables inside the class.  
+- Closure is used in the structure.'{}' 
+
+```swift
+class Maths{
+    var x = 10
+    var y = 20
+    
+    var collect:Int{
+        get{
+            return x + y
+        }
+    }
+}
+
+var object = Maths()
+print(object.sum)
+
+class Salary {
+    var salary = 10000.0
+    var bonus = 1.10
+    
+    var weeklySalaryCalculation:Double{
+        get{
+            return (salary*bonus)/52
+        }
+        
+        set (newweeksalary){
+            self.salary = newweeklysalary * 52
+        }
+    }
+}
+
+var m = Salary()
+print(m.weeklySalaryCalculation)
+
+m.weeklySalaryCalculation = 600
+print(m.salary)
+
+```
