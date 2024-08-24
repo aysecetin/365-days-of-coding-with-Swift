@@ -108,8 +108,41 @@ m.multiply(number1: 33, number2: 45, isim: "Ayşe")
 print(m.divide(number1: 50.0, number2: 25.0))
 ```
 
-## What did we do? 🤔
+**What did we do? 🤔**  
 - We created a maths class and wrote the operations as functions 
 - Then we created an ‘m’ object from this class and provided access to the functions of this class
 
 
+
+## OVERLOADING OF METHODS 
+- Reuse of methods with the same name.
+- The only condition is that the types in the parameter sequence of the method are different.
+- It provides parameter diversity in the use of methods.
+
+```swift
+class Calculator {
+    func sum(number1: Int, number2: Int){
+    print("total: \(sayi1 + sayi2)")
+    }
+ 
+    func sum(number1: Int, number2: Double){
+    print("total: \(Double(sayi1) + sayi2)")
+    }
+    
+    func sum(number1: Double, number2: Int){
+    print("total: \(sayi1 + Double(sayi2))")
+    }
+    
+    func sum(number1: Int, number2: Int, name: String){
+    print("person who made: \(name), result: \(number1 + number2)")
+    }
+   
+}
+
+var h = Calculator()
+
+h.sum(number1: 23, number2: 32)
+h.sum(number1: 32.9, number2: 43)
+h.sum(number1: 55, number2: 46.7)
+h.sum(number1: 19, number2: 99, name: "ayşe")
+```
