@@ -30,11 +30,11 @@ let result = o1.transform(degree: 30.0)
 print("fahreinheit: \(result)")
 ```
 
-### Homework Environmental Calculation
+### Homework Perimeter Calculation
 
 --------------------------------------
 
-Write a method that calculates the perimeter of a rectangle whose sides are entered as parameters.
+👩🏻‍💻Write a method that calculates the perimeter of a rectangle whose sides are entered as parameters.
 
 *what I did*  
 
@@ -72,8 +72,9 @@ h2.cevre(short side: 30, long side: 40)
 ### Homework Factorial Calculation
 --------------------------------------
 
-Write a method that calculates and returns the factorial of the number entered as a parameter.
-*what I did*
+👩🏻‍💻Write a method that calculates and returns the factorial of the number entered as a parameter.
+
+*what I did*🤓
 
 ```swift
 class Homework3{
@@ -173,7 +174,7 @@ print("Sum of Interior Angles: \(result)")
 ### Homework Salary Calculation
 --------------------------------------
 
-Write the method that calculates the salary according to the number of days entered as a parameter and returns the obtained value.
+👩🏻‍💻Write the method that calculates the salary according to the number of days entered as a parameter and returns the obtained value.
 - Can work 8 hours a day.
 - Working hour fee 10₺
 - Overtime hourly rate 20₺
@@ -226,7 +227,7 @@ print("Salary: \(result)₺")
 ### Homework Calculate Internet Fee
 --------------------------------------
 
-Write the method that calculates and returns the fee according to the quota amount entered as a parameter.
+👩🏻‍💻Write the method that calculates and returns the fee according to the quota amount entered as a parameter.
 - 50GB 100₺
 - 4₺ per 1GB after quota exceeding
 *(don't forget to use if else loop in such questions, dear🥰)*
