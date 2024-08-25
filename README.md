@@ -6,13 +6,12 @@ Bu repo, Swift öğrenim sürecimi belgelediğim bir kaynak olarak hizmet etmekt
 
 | **Bölüm**                       | **Paylaşılacak İçerik**                                                                                         |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Giriş ve Temel Bilgiler**     | - Swift diline giriş<br>- Kurulum ve ortam hazırlığı<br>- Swift Playgrounds kullanımı                             |
 | **Veri Türleri ve Değişkenler** | - Veri türleri (Int, Float, String, etc.)<br>- Değişkenler ve sabitler<br>- Tip güvenliği ve dönüşümleri         |
 | **Operatörler ve Akış Kontrolü**| - Matematiksel ve mantıksal operatörler<br>- If-else yapıları<br>- Switch-case kullanımı<br>- Döngüler (for, while)|
-| **Fonksiyonlar**                | - Fonksiyon tanımlama ve çağırma<br>- Parametreler ve geri dönüş değerleri<br>- Fonksiyonların iç içe kullanımı  |
 | **Diziler ve Koleksiyonlar**    | - Array, Set, Dictionary kullanımı<br>- Koleksiyonlar üzerinde işlemler (ekleme, çıkarma, arama)                |
 | **Opsiyoneller ve Hata Yönetimi**| - Opsiyonellerin kullanımı<br>- Nil kontrolü ve unwrap işlemleri<br>- Hata fırlatma ve yakalama (try-catch)     |
 | **Nesne Tabanlı Programlama**   | - Sınıflar ve yapılar<br>- Özellikler ve metodlar<br>- Kalıtım ve protokoller<br>- Başlatıcılar ve deinit işlemleri|
+| **Fonksiyonlar**                | - Fonksiyon tanımlama ve çağırma<br>- Parametreler ve geri dönüş değerleri<br>- Fonksiyonların iç içe kullanımı  |
 | **Gelişmiş Konular**            | - Closure'lar ve fonksiyonel programlama<br>- Generics kullanımı<br>- Bellek yönetimi (ARC)                    |
 | **Algoritmalar ve Veri Yapıları**| - Temel algoritmalar (sıralama, arama)<br>- Veri yapıları (yığın, kuyruk, ağaçlar)                              |
 | **Swift Projeleri**             | - Tamamlanan projeler ve kod örnekleri<br>- Uygulama geliştirme süreçleri ve karşılaşılan sorunlar              |
