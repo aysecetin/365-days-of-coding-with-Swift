@@ -252,6 +252,8 @@ print("fahreinheit: \(result)")
 
 ### Homework Environmental Calculation
 
+-------------------------------------------------------------------
+
 Write a method that calculates the perimeter of a rectangle whose sides are entered as parameters.
 
 *what I did*  
