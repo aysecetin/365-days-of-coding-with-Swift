@@ -207,8 +207,8 @@ if let t = a {
 
 ## GLOBAL AND LOCAL PARAMETERS IN FUNCTIONS
 
-- will appear as s1 and s2 inside the method <local> 📍 
-- when someone wants to use the function outside, it will appear as number1 and number2 <global> 🌍
+- will appear as s1 and s2 inside the method -> local 📍 
+- when someone wants to use the function outside, it will appear as number1 and number2 -> global 🌍
 
 ```swift
 func calculate( number1 n1:Int, number2 n2:Int)-> Int{
@@ -218,4 +218,69 @@ func calculate( number1 n1:Int, number2 n2:Int)-> Int{
 
 var a1 = calculate(number1: 10, number2: 20)
 print("Operation Result: \(a1)")
+```
+### Homework Temperature Conversion
+
+Write a method that converts the degree entered as a parameter to fahrenheit and returns it back.
+
+*what I did*
+
+```swift
+func temperature(degree d1:Double)->Double{
+    var fahrenheit = d1 * 1.8 + 32
+    return fahrenheit
+}
+var t1 = temperature(degree: 15.0)
+print("Temperature: \(t1) fahreinheit.")
+```
+
+*what the teacher did*
+
+```swift
+class Homework1{
+    func transform(degree:Double)->Double{
+        let fahrenheit = degree*1.8 + 32
+        return fahrenheit
+    }
+}
+
+let o1 = Homework1()
+
+let result = o1.transform(degree: 30.0)
+print("fahreinheit: \(result)")
+```
+
+### Homework Environmental Calculation
+
+Write a method that calculates the perimeter of a rectangle whose sides are entered as parameters.
+
+*what I did*  
+
+*I wrote a method that calculates and returns. but it would be fine if I made it void, the question did not say to return it :)*
+
+```swift
+class Homework2{
+    func cevreCalculate(shortEdge s:Int, longEdge l:Int)->Int{
+        let cevre = s*2 + l*2
+        return cevre
+    }
+}
+
+let c1 = Homework2()
+let result = c1.cevreCalculate(shortEdge: 22, longEdge: 33)
+print("Perimeter of the rectangle: \(result)")
+```
+
+*what the teacher did*
+
+```swift
+class Homework2{
+    func cevre(shortEdge:Int, longEdge:Int){
+        let CevreCalculus = 2*shortEdge + 2*longEdge
+        print("Perimeter of the Rectangle: \(cevreHesabi)")
+    }
+}
+
+let o2 = Homework2()
+o2.cevre(short side: 30, long side: 40)
 ```
