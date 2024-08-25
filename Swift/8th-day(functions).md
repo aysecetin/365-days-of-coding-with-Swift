@@ -220,7 +220,7 @@ var a1 = calculate(number1: 10, number2: 20)
 print("Operation Result: \(a1)")
 ```
 ### Homework Temperature Conversion
-
+--------------------------------------
 Write a method that converts the degree entered as a parameter to fahrenheit and returns it back.
 
 *what I did*
@@ -252,7 +252,7 @@ print("fahreinheit: \(result)")
 
 ### Homework Environmental Calculation
 
--------------------------------------------------------------------
+--------------------------------------
 
 Write a method that calculates the perimeter of a rectangle whose sides are entered as parameters.
 
