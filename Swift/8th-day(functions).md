@@ -146,3 +146,76 @@ h.sum(number1: 32.9, number2: 43)
 h.sum(number1: 55, number2: 46.7)
 h.sum(number1: 19, number2: 99, name: "ayşe")
 ```
+
+## VARIADIC PARAMETERS
+
+🤓 Parameter to enter as much data as desired
+
+```swift
+func sumVariadic(numbers:Int...) -> Int{
+    var total = 0
+    for s in numbers{
+        total = total + s
+    }
+    return total
+}
+
+var v1 = sumVariadic(numbers: 1,2,3,4,5,6)
+print(v1)
+
+var v2 = sumVariadic(numbers: 80,73,65,32,96,125)
+print(v2)
+```
+
+## FUNCTION WITH MULTIPLE RETURN VALUES
+
+```swift
+func operation(numbers:[Int])->(sum:Int, multiply:Int){
+    var sum = 0
+    var multiply = 1
+    for s in sayilar{
+        sum = sum + s
+        multiply = carpma * s
+    }
+    return(sum,multiply)
+}
+
+var array = [1,2,3,4,5,6]
+
+let b = operation(numbers: array)
+
+print(b.multiply)
+print(b.sum)
+```
+
+## OPTIONAL RETURN VALUE
+
+- Tells the user that the return value can be nil or full, and that he/she should check this return value.
+- ‘?’ is used.
+
+```swift
+func calculate(num1:Int, num2:Int) ->Int? {
+    let operation = num1 * 2 + num2 * 4
+    return operation
+}
+var a = calculate( num1: 12, num2: 35)
+
+if let t = a {
+    print("Operation Result: \(t)")
+}
+```
+
+## GLOBAL AND LOCAL PARAMETERS IN FUNCTIONS
+
+- will appear as s1 and s2 inside the method <local> 📍 
+- when someone wants to use the function outside, it will appear as number1 and number2 <global> 🌍
+
+```swift
+func calculate( number1 n1:Int, number2 n2:Int)-> Int{
+    let operation = n1*2 + n2*4
+    return operation
+}
+
+var a1 = calculate(number1: 10, number2: 20)
+print("Operation Result: \(a1)")
+```
