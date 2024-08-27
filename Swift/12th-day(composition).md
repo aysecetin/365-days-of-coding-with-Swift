@@ -85,10 +85,10 @@ var y3 = Directors(director_id: 3, director_name: "Christopher Nolan")
 var f1 = Movies(film_id: 1, film_name: "Django", film_year: 2013, category: k1, director: y2)
 var f2 = Movies(film_id: 2, film_name: "Inceotion", film_year: 2006, category: k3, director: y3)
 
-print("Film id:   \(f1.film_id!)"
-print("Film name:     \(f1.film_ad!)")
-print("Film year:    \(f1.film_yil!)")
-print("Film category: \(f1.category!.category_name!)")
+print("Film id:        \(f1.film_id!)"
+print("Film name:      \(f1.film_ad!)")
+print("Film year:      \(f1.film_yil!)")
+print("Film category:  \(f1.category!.category_name!)")
 print("Film director:  \(f1.director!.director_name!)")
 
 ```
