@@ -10,9 +10,9 @@ import Foundation
 import MapKit
 ```
 
-# 👩🏻‍💻 STATIC VARIABLES AND METHODS
+# STATIC VARIABLES AND METHODS
 
-
+💻 💻 💻 
 
 - It is used when it is desired to access a variable or method from the class or structure without the need to create an object.
 
@@ -31,7 +31,10 @@ Example.method()
 ```
 
 
-# 👩🏻‍💻 ENUMERATION
+# ENUMERATION 
+
+💻 💻 💻 
+
 - Indicated by the 'enum' expression.
 - Used in parameters.
 - An operation is performed as a result of matching the data.
