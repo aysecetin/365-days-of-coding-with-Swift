@@ -1,8 +1,10 @@
-/*
-COMPOSITION
+
+
+# COMPOSITION
 - It is generally used for modelling tables in databases. relational database
 - Objects formed from other classes (class or structure) can be variables of a class.
-*/
+
+```swift
 class Persons {
     var name:String?
     var age:Int?
@@ -90,6 +92,6 @@ print("Film year:    \(f1.film_yil!)")
 print("Film category: \(f1.category!.category_name!)")
 print("Film director:  \(f1.director!.director_name!)")
 
-
+```
 
     
