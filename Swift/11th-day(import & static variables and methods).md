@@ -29,3 +29,48 @@ class Example{
 print(Example.x)
 Example.method()
 ```
+
+
+ENUMERATION
+- indicated by the 'enum' expression.
+- Used in parameters.
+- An operation is performed as a result of matching the data.
+- It saves the coding software developer from detail.
+
+```swift
+
+enum Colours{
+    case White
+    case Black
+}
+
+var colour = Colours.White
+
+switch colour{
+    case.White:
+        print("#FFFFF")
+    case.Black:
+        print("000000")
+}
+
+enum CannedSize{
+    case Small
+    case Medium
+    case Large
+}
+
+func ucretAl(size:CanSize){
+    switch size{
+        case.Small:
+            print(20*30)
+        case. Medium:
+            print(30*30)
+        case.Large:
+            print(40*30)
+    }
+}
+
+var size = Can Size.Medium
+buy(size: size)
+buy(size: .Small)
+```
