@@ -1,6 +1,6 @@
 
 
-# COMPOSITION
+# COMPOSITION
 - It is generally used for modelling tables in databases. relational database
 - Objects formed from other classes (class or structure) can be variables of a class.
 
