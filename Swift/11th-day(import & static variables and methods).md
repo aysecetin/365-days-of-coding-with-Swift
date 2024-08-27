@@ -10,7 +10,7 @@ import Foundation
 import MapKit
 ```
 
-# STATIC VARIABLES AND METHODS
+# 👩🏻‍💻 STATIC VARIABLES AND METHODS
 
 
 
@@ -31,8 +31,8 @@ Example.method()
 ```
 
 
-ENUMERATION
-- indicated by the 'enum' expression.
+# 👩🏻‍💻 ENUMERATION
+- Indicated by the 'enum' expression.
 - Used in parameters.
 - An operation is performed as a result of matching the data.
 - It saves the coding software developer from detail.
