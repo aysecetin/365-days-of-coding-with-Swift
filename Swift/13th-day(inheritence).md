@@ -1,7 +1,7 @@
 
-# *INHERITENCE* 🧬
+# *INHERITANCE* 🧬
 
-## *OOP RULE - INHERITENCE*
+## *OOP RULE - INHERITANCE*
 
 - It is used to derive another class from an existing class.
 - increases the reusability of the code.
