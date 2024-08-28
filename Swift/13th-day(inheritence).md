@@ -9,8 +9,8 @@
 - It is identified by the ‘ : ’ sign.
 - can be the only inheritance of a class
 - more than one class cannot be linked to a class by inheritance.
-- A superclass is called a *‘superclass’*.
-- A subclass is called a *'subclass’*.
+- A upper class is called a *‘superclass’*.
+- A lower class is called a *'subclass’*.
 - subclass can access superclasses. superclass CANNOT access subclasses
 
 
