@@ -2,7 +2,7 @@
 - 🤓 import allows us to use the classes we will need while coding in the class we are coding.
 
 **Example:**
-  We need to import MapKit classes for map operations  
+- We need to import MapKit classes for map operations  
 
 ```swift
 import UIKit
