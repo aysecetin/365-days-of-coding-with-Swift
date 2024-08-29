@@ -106,14 +106,16 @@ print(bogazVilla.pencereSayisi!)
 ```
 ## CONSTRUCTOR IN INHERITANCE RELATIONSHIP 
 
-- access the constructor of the superclass with the super word
+- Access the constructor of the superclass with the super word
 - The constructor of the class created by inheritance must take the properties of the superclass.
+
 ```swift
  init(bodyType: String,colour: String, gear: String) {
         self.bodyType = bodyType
         super.init(colour: colour, gear: gear)
     }
 ```
+
 - Actually, this code structure executes the constructor of the superclass. So it creates an object from the superclass.
 
 
