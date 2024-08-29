@@ -63,7 +63,7 @@ print(arac.gear!)
 
 - the object created from the vehicle class CANNOT access the properties (e.g. bodyType) in the car class
 
-**EXAMPLE**
+_**EXAMPLE**_
 
 ```swift
 
@@ -104,7 +104,7 @@ print(topkapiSarayi.pencereSayisi!)
 print(bogazVilla.garajVarMi!)
 print(bogazVilla.pencereSayisi!)
 ```
-## CONSTRUCTOR IN INHERITANCE RELATIONSHIP 
+## *CONSTRUCTOR IN INHERITANCE RELATIONSHIP*
 
 - Access the constructor of the superclass with the super word
 - The constructor of the class created by inheritance must take the properties of the superclass.
