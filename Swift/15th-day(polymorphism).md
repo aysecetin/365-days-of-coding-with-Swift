@@ -44,4 +44,55 @@ animal.makeSound()
 
 _it looks like animal class but it is actually dog class_
 
+-----------------------------
+
+# TYPE TRANSFORMATION OF OBJECTS
+
+```swift
+class Ev{
+    var windowNumber:Int?
+    
+    init(windowNumber: Int) {
+        self.windowNumber = windowNumber
+    }
+}
+
+class Saray:Home{
+    var towerNumber:Int?
+    
+    init(towerNumber: Int,windowNumber: Int) {
+        self.towerNumber = towerNumber
+        super.init(windowNumber: windowNumber)
+    }
+}
+
+class Villa:Home{
+    var garageExists :Bool?
+    
+    init(garageExists: Bool,windowNumber: Int) {
+        self.garageExists = garageExists
+        super.init(windowNumber: windowNumber)
+    }
+}
+
+var topkapiSarayi = Palace(towerNumber: 5, windowNumber: 30)
+var bogazVilla = Villa(garageExists: true, windowNumber: 15)
+
+print(topkapiPalace.towerNumber!)
+print(topkapiPalace.windowNumber!)
+
+print(bogazVilla.garageExists!)
+print(bogazVilla.windowNumber!)
+
+
+/// type checking is done with is. true gives false information.
+
+let palace1: Palace = Palace(towerNumber: 2, windowNumber: 300)
+
+if palace1 is Palace {
+    print(“it is a palace!”)
+}else{
+    print(“not!”)
+}
+```
 
