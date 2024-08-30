@@ -1,4 +1,4 @@
-_# POLYMORPHISM_
+# *POLYMORPHISM*
 - For polymorphism to be polymorphism, there must be a inheritance relationship between the two classes.
 - Is used to provide a more inclusive usage.
 - Polymorphism can be used to get more inclusive data, especially in the parameters of methods.
@@ -46,7 +46,7 @@ _it looks like animal class but it is actually dog class_
 
 -----------------------------
 
-# TYPE TRANSFORMATION OF OBJECTS
+# *TYPE TRANSFORMATION OF OBJECTS*
 
 ```swift
 class Ev{
