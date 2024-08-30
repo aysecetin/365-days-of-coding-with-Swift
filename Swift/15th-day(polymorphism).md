@@ -96,3 +96,31 @@ if palace1 is Palace {
 }
 ```
 
+## *is, as, as!, as?*
+
+- **is (Type Checking):** used for type checking
+
+- **as (Upcasting):** Used to convert one type to another type.
+
+- **as? (Force Downcasting):** It is used to convert one type to another type. it returns an error if the conversion fails, or the value if it succeeds.
+
+- **as! (For Optional Downcasting):** It is used if there is an optional value during conversion. If it fails during conversion, it converts nil, if it succeeds, it converts the value.
+
+
+**UPCASTING**
+
+```swift
+var ev1: House = Palace(towerNumber: 3, windowNumber: 50) as House
+```
+
+**DOWNCASTING**
+
+```swift
+var house2 = House(windowNumber: 50)
+var palace2 = house2 as! Palace
+
+var palace3:Palace? = House(windowNumber: 32) as? Palace
+```
+
+
+
