@@ -1,5 +1,5 @@
 
-# _EXTENSION_
+# _EXTENSION_ 👩🏻‍💻
 
 - 🤓 Allows us to extend an existing structure according to ourselves.
 - This provides code protection by preventing the details of the structure we created from being seen.
@@ -9,7 +9,7 @@
 
 ## _EXAMPLE EXTENSION VARIABLE_
 
-**💻💻💻**
+💻
 ```swift
 extension Double{
     var km:Double {return self*1000.0}
@@ -27,7 +27,7 @@ print(“30 mm \(num.mm) is meters.”)
 
 ## _EXAMPLE EXTENSION METHOD_
 
-**💻💻💻**
+💻
 ```swift
 extension String{
     func displacement( newLetter:String, oldLetter:String)->String{
