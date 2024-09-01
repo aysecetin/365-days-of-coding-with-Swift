@@ -1,4 +1,4 @@
-# PROTOCOL 👩🏻‍💻
+# _PROTOCOL_ 👩🏻‍💻
 
 - Can be used in both class and structure.
 - A class (class or structure) can have more than one protocol
@@ -37,3 +37,60 @@ a.method1()
 print(a.method2())
 
 ```
+
+## _PROTOCOL EXAMPLE_
+
+```swift 
+protocol Squeezeable {
+    func howToSqueez()
+}
+protocol Eatable{
+    func howToEat()
+}
+
+class Lion{
+    
+}
+
+class Chicken:Eatable{
+    func howToEat() {
+        print(“Roast in the oven”)
+    }
+}
+
+class Apple:Eatable,Squeezable{
+    
+    func howToEat() {
+        print(“Slice and eat”)
+    }
+    func howToSqueez() {
+        print(“Squeeze with Blender”)
+    }
+}
+
+class AmasyaApple :Apple{
+    override func howToEat() {
+        print(“Wash and eat”)
+    }
+}
+
+var lion = Lion()
+var amasyaApple:Apple = AmasyaApple()
+var apple = Apple()
+var chicken:Eatable = Chicken()
+
+var objects = [lion, amasyaApple, apple, chicken] as [Any]
+
+for object in objects{
+    
+    if object is Eatable{
+        (object as! Eatable).howToEat()
+    }
+    if object is Squeezeable{
+        (object as! Squeezeable).howToSqueez()
+    }
+}
+
+```
+
+
