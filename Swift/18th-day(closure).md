@@ -20,4 +20,27 @@ let aggregation = {
 let result = sum(10,20)
 
 print(result)
+
+```
+
+
+## _WRITING A CONDITION WITH CLOSURE_ 📂
+
+```swift
+
+var numbers:[Int] = [5, 10, -6, 75, 20]
+
+let sort1 = numbers.sorted(by: {number1, number2 in number1 > number2})
+
+let sort2 = numbers.sorted(by: {n1, n2 in n1 < n2})
+
+let sort3 = numbers.sorted(by: {$0 > $1})
+
+let sort4 = numbers.sorted(by: < ) /// not closure!!!
+
+print(sort1)
+print(sort2)
+print(sort3)
+print(sort4)
+
 ```
