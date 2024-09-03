@@ -41,3 +41,58 @@ for student in studentList{
 
 }
 ```
+
+**SORT METHOD**
+
+```swift
+class People{
+    var personName:String?
+    var personNo:Int?
+    
+    init(personName:String, personNo:Int){
+        self.personName = personName
+        self.personNo = personNo
+    }
+}
+
+let kisi1 = Kisiler(personName: “ahmet”, personNo: 1)
+let kisi2 = Kisiler(personName: “zeynep”, personNo: 2)
+let kisi3 = Kisiler(personName: “berna”, personNo: 3)
+
+var peopleArray = [People]()
+
+peopleArray.append(person1)
+peopleArray.append(person2)
+peopleArray.append(person3)
+
+
+print(“Before”)
+for k in peopleArray{
+    print(“\(k.personNo!) - \(k.personName!)”)
+    }
+
+
+print(“numeric big to small”)
+
+let sort1 = peopleArray.sorted(by: {$0.personNo! > $1.personNo!} )
+for k in sort1 {
+    print(“\(k.personNo!) - \(k.personName!)”)
+    }
+
+print(“numeric small to large”)
+
+let sort2 = peopleArray.sorted(by: {$0.personNo! < $1.personNo!} )
+for k in sort2 {
+    print(“\(k.personNo!) - \(k.personName!)”)
+    }
+
+print(“From lowercase to uppercase”)
+
+let sort3 = kisilerArray.sorted(by: {$0.kisiAd! < $1.kisiAd!} )
+for k in sort3 {
+    print(“\(k.personNo!) - \(k.personName!)”)
+    }
+
+```
+
+
