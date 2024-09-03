@@ -95,4 +95,106 @@ for k in sort3 {
 
 ```
 
+**RATION CARD APPLICATION**
+
+
+```swift
+class LectureGrades {
+    var course:String?
+    var grade:Int?
+    
+    init(course: String, grade: Int) {
+        self.course = course
+        self.grade = grade
+    }
+}
+
+var dn1 = LectureGrades(course: “History”, grade: 20)
+var dn2 = LectureGrades(course: “Physics”, grade: 80)
+var dn3 = LectureGrades(course: “Math”, grade: 100)
+var dn4 = LectureGrades(course: “Chemistry”, grade: 50)
+var dn5 = LectureGrades(course: “Biology”, grade: 40)
+
+var LectureGradesList = [LectureGrades]()
+
+lectureGradesList.append(dn1)
+lectureGradesList.append(dn2)
+lectureGradesList.append(dn3)
+lectureGradesList.append(dn4)
+lectureGradesList.append(dn5)
+
+var total = 0
+
+for dn in lectureGradesList{
+    print("\(dn.course!) : \(dn. grade!)”)
+    total = total + dn.note!
+}
+
+print(“*********************”)
+let average = total / lectureGradesList.count
+print("Average: \(average)")
+
+if average >= 50 {
+    print(“You passed the class”)
+}else {
+    print(“You failed.”)
+}
+```
+
+**COMPOSITION**
+
+```swift
+
+class Adres{
+    var il:String?
+    var ilce:String?
+    
+    init(il: String, ilce: String) {
+        self.il = il
+        self.ilce = ilce
+    }
+}
+class Personel{
+    var personelNo:Int?
+    var personelad:String?
+    var personelAdres:Adres?
+    
+    init(personelNo: Int, personelad: String, personelAdres:Adres) {
+        self.personelNo = personelNo
+        self.personelad = personelad
+        self.personelAdres = personelAdres
+    }
+}
+
+var adres1 = Adres(il: "Bursa", ilce: "Osmangazi")
+var adres2 = Adres(il: "Antalya", ilce: "İbradı")
+var adres3 = Adres(il: "Denizli", ilce: "Pamukkale")
+var adres4 = Adres(il: "İstanbul", ilce: "Kadıköy")
+var adres5 = Adres(il: "İzmir", ilce: "Bornova")
+
+var personel1 = Personel(personelNo: 110, personelad: "Ayşe", personelAdres: adres3)
+var personel2 = Personel(personelNo: 100, personelad: "İsmail", personelAdres: adres2)
+var personel3 = Personel(personelNo: 90, personelad: "Güneş", personelAdres: adres5)
+var personel4 = Personel(personelNo: 130, personelad: "Furkan", personelAdres: adres4)
+
+var personelListesi = [Personel]()
+
+personelListesi.append(personel1)
+personelListesi.append(personel2)
+personelListesi.append(personel3)
+personelListesi.append(personel4)
+
+
+for p in personelListesi{
+    print("**********************")
+    print("Personel No: \(p.personelNo!)")
+    print("Personel Ad: \(p.personelad!)")
+    print("Personel Adres")
+    print("Personel İl: \(p.personelAdres!.il!)")
+    print("Personel İlçe: \(p.personelAdres!.ilce!)")
+}
+```
+
+
+
 
