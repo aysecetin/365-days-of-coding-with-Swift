@@ -307,7 +307,7 @@ while counter2 > -1{
 **For Example(Name Repetition)**
 
 ```swift
-var name = ‘Ayşe’
+var name = "Ayşe"
 var last = 100
 
 /*for i in 1...last{
