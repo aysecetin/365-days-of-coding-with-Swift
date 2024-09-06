@@ -19,14 +19,14 @@ statement just below if
 
 ```swift
 func personRecognition(name:String){
-    if name == ‘ahmet’{
-        print(‘hello ahmet’)
+    if name == "ahmet"{
+        print("hello ahmet")
     }else{
-        print(‘unrecognised person’)
+        print("unrecognised person")
     }
 }
 
-personRecognition(name: ‘ahmet’)
+personRecognition(name: "ahmet")
 ```
 
 ### GUARD
