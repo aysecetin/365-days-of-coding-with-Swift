@@ -65,3 +65,45 @@ func buyukYap(str1:String?){
 
 buyukYap(str1: "ismail")
 ```
+
+
+# DO-TRY-CATCH Throw Usage 
+
+```swift
+enum Errors:Error{
+    case zeroDivisionError
+}
+
+func divide(s1:Int,s2:Int) throws -> Int{
+    if s2 == 0 {
+        throw Errors.zeroDivisionError
+    }
+    return s1 / s2
+}
+
+var s1 = 10
+var s2 = 0
+```
+**do - try - catch**
+
+```swift
+do {
+    let result = try divide(s1: s1, s2: s2)
+    print(result)
+}catch Errors.zeroDivisionError {
+    print("the number is not divisible by zero.")
+}
+```
+
+ **try?**
+
+```swift
+let result = try? divide(s1: s1, s2: s2)
+
+
+if result == nil{
+    print("result is nil because an error occurred.")
+}else{
+    print("no error, result: \(result!)")
+}
+```
