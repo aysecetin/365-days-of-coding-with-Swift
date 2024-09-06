@@ -107,3 +107,36 @@ if result == nil{
     print("no error, result: \(result!)")
 }
 ```
+
+# DISPATCH QUEUE
+
+```swift
+let queue1 = DispatchQueue(label: "etiket1",qos: DispatchQoS.userInitiated )
+```
+
+- Since it has synchronous (SYNC) feature, first thread and then main thred worked.
+- If we do async, both will run at the same time
+
+```swift 
+queue1.sync {
+    for i in 1...10 {
+        print("Thread: \(i)")
+    }
+}
+
+for i in 100...110 {
+    print("Main: \(i)")
+}
+```
+
+ **THREAD DELAY**
+ 
+ ```swift
+var delaySecond: DispatchTimeInterval = .seconds(2)
+print(Date())
+
+queue1.asyncAfter(deadline: now() + delaySecond,){
+    print(Date())
+}
+```
+
