@@ -1,0 +1,1 @@
+- I will put the projects made in the lessons I watched while learning swift and I made them for learning and practice. 
