@@ -1,10 +1,10 @@
-# COLLECTIONS 📚
+# *COLLECTIONS 📚*
 
 🤓I will explain collections in two parts   
 - array   
 - set and dictionary    
 
-## ARRAY[ ]📺
+## *ARRAY[ ]📺*
 
 - Keeps data of the same type together.  
 - Index numbers start from 0.  
@@ -94,7 +94,7 @@ print(result3)
 
 ## Examples
 
-**1 Odd - Even(👩🏻‍❤️‍💋‍👨🏻) Numbers**
+**#1 Odd - Even Numbers**
 
 ```swift
 var numbers = [1, 4, 67, 42, 89, 90, 54, 12, 65, 73, 64, 87]
@@ -114,14 +114,14 @@ for s in numbers{
     }
 }
 
-print(‘Odd numbers’)
+print("Odd numbers")
 print(odds)
 
-print(‘Even numbers’)
+print("Even numbers")
 print(evens)
 ```
 
-**2 Generate Random Number**
+**#2 Generate Random Number**
 
 ```swift
 var numbers = [Int]()
@@ -136,7 +136,7 @@ numbers.sort()
 print(numbers)
 ```
 
-**3 Average Calculation**,
+**#3 Average Calculation**
 
 ```swift
 var numbers = [30, 40, 70, 100, 100, 50, 80, 90, 50, 70, 40]
@@ -152,10 +152,10 @@ print("total: \(total)")
 print("average: \(total/numbers.count)")
 ```
 
-**4 Name Search**
+**#4 Name Search**
 
 ```swift
-var names = ["Ahmet", "Eda", "Ayşe", "İsmail", "Fatoş"]
+var names = ["Dilan", "Sena", "Ayşe", "İsmail", "Fatoş"]
 
 
 for i in names{
@@ -169,7 +169,7 @@ for i in names{
 }
 ```
 
-**5 Content Modification**
+**#5 Content Modification**
 
 ```swift
 
@@ -182,13 +182,13 @@ for (index, s) in numbers.enumerated(){ // gives the content of the numbers with
 print(numbers)
 ```
 
-**6 Ration Card Application**
+**#6 Ration Card Application**
 
 ```swift
 var grades = [Int]()
 var courses = [String]()
 
-courses.append(‘History’)
+courses.append("History")
 grades.append(20)
 
 courses.append("Physics")
